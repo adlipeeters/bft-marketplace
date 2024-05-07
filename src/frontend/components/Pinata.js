@@ -5,7 +5,7 @@ import FormData from 'form-data';
 import { generateRandomString } from '../utils';
 import { ethers } from "ethers"
 
-const JWT = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI4ZDMzMTNhMi0yZDdkLTQzZmItODc3Yy0zMDFiZmE2MDk4ZmQiLCJlbWFpbCI6ImFkbGlwZWV0ZXJzQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaW5fcG9saWN5Ijp7InJlZ2lvbnMiOlt7ImlkIjoiRlJBMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfSx7ImlkIjoiTllDMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfV0sInZlcnNpb24iOjF9LCJtZmFfZW5hYmxlZCI6ZmFsc2UsInN0YXR1cyI6IkFDVElWRSJ9LCJhdXRoZW50aWNhdGlvblR5cGUiOiJzY29wZWRLZXkiLCJzY29wZWRLZXlLZXkiOiJlZTQ1YTM4MDFiZTY1NzRkNjE1YyIsInNjb3BlZEtleVNlY3JldCI6ImYyYjBmNDc4ZmFiMGMwMjIxN2IwOTIzYzMzMzk5ODk2ODc2ZThiMmUwMjIxYjBkYTA3MzM0ZWFhZDYxNTQ4MTQiLCJpYXQiOjE3MTUwMTA2Mjh9.4zB152Dx2E9K0Dt2cQu5rLnveBTVQNB7eCMAJRJSIqs';
+const JWT = ''
 
 const Pinata = ({ marketplace, nft }) => {
     const [nftData, setNftData] = useState({
